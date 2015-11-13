@@ -25,6 +25,7 @@
     src: url(../fonts/Lato/fonts/Lato-LightItalic.ttf);
 }
 /*@import url(https://fonts.googleapis.com/css?family=Lato);*/
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:700);
 .standard-font{
     font-size: 15px;
     font-family: 'Lato Light';
@@ -34,7 +35,6 @@
 }
 ul{
     list-style-type: none;
-    padding-left:0px;
 }
 .regular{
     font-family: 'Lato Regular';
@@ -48,10 +48,8 @@ ul{
     height:800px;
 }
 div.menu{
-    position: fixed;
-    height: 100px;
     width: 1170px;
-    z-index: 999;
+    margin-top: 18px;
 }
 .h-page, .f-page, .free, .our-services, .qoute, .our-prices, .advantages, .join-us, .updates, .free-psd2, .share {
     width: 1170px;
@@ -67,28 +65,19 @@ div.menu{
 }
 .h-page{
     padding-top: 1px;
-    position:relative;
   }
 a{
     text-decoration: none;
     color: #fff;
 }
-nav {
-    position: fixed;
-    top: 40px;
-    z-index: 99999;
-}
 .logotype{
-    position: fixed;
-    margin: 0 0;
-    top: 30px;
-    z-index: 99999;
+    float: left;
 }
 nav{
     width:500px;
-    margin: 0 0 0 750px;
+    float: right;
+    margin-top: 22px;
 }
-
 nav ul{
     margin:0;
 }
@@ -98,6 +87,7 @@ nav ul{
     list-style-type: none;
     padding-left: 10px;
     display: inline-block;
+    line-height: 37px;
 }
 .h-page a:hover, .f-page a:hover{
     color: #ed145b;
@@ -105,7 +95,7 @@ nav ul{
 .advantages a:hover, .join-us a:hover{
     color: #4a7a4a;
 }
-.show-more-buy a:hover{
+.show-more-buy a:hover, .updates .link a:hover{
     color: #ed6b14;
 }
 .centered{
@@ -172,7 +162,7 @@ nav ul{
 }
 .mac-shadow{
     position: absolute;
-    bottom: -93px;
+    top: 648px;
 }
 /*.mac-book::after{
     content: "";
@@ -266,14 +256,23 @@ h2{
     font-family: 'Lato LightItalic';
     font-size: 25px;
     padding: 0 150px;
+    margin: 0 auto;
 }
 .upqou, .subqou{
     height: 150px;
     color: #ed145b;
     font-size: 158px;
 }
-.subqou,.upqou{
-    font-family: 'Times new Roman'
+.subqou{
+    padding-bottom: 100px;
+    font-family: 'Droid serif';
+    font-weight: bold;
+    line-height: 50px;
+}
+.upqou{
+    font-family: 'Droid serif';
+    font-weight: bold;
+    padding-top: 40px;
 }
 .wrapper-our-prices{
     width: 100%;
@@ -293,7 +292,7 @@ h2{
     margin: 74px 0;
     display: inline-block;
 }
-.our-prices>ul li:first-child~li{
+.our-prices>ul>li:first-child~li{
     margin-left: 15px;
 }
 .buy-type{
@@ -329,6 +328,9 @@ font-size: 15px;
 }
 .buy-price p span{
     font-size: 20px;
+}
+.proposition ul{
+    padding-left: 0;
 }
 .buy-type{
     background-color: #f4f4f4;
@@ -425,7 +427,8 @@ font-size: 15px;
     background-color:#ffffff;
 }
 .updates ul{
-    margin-top: 85px;
+    margin-top: 85px;    
+    padding-left: 0px;
 }
 .link a{
     color: #5a5a5a;
@@ -519,13 +522,17 @@ h2.link{
     left: -235px;
 }
 .toolbar ul {
-    margin: 0;
+    margin: 0;    
+    padding-left: 0px;
 }
 .toolbar ul li{
     display: inline-block;
-    height: 20px;
+    height: 25px;
     background-color: #fff;
     border-radius: 3px;
+}
+.toolbar ul li img{
+    vertical-align: middle;
 }
 .toolbar ul li.dots{
     background-color: #f4f4f4;
@@ -552,13 +559,13 @@ h2.link{
     bottom: 0;
 }
 .dots{
-    padding: 7px 3px;
+    padding: 10px 3px 4px;
 }
 .toolbar ul li:first-child{
     padding-left: 10px;
 }
 .toolbar li.plus{
-    height: 20px;
+    height: 24px;
     width: 22px;
     background-color: #d2d1d2;
     border-radius: 0;
