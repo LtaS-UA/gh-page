@@ -1,0 +1,581 @@
+/*=================================================================================================================
+    YOUR STYLE here
+  ================================================================================================================= */
+/* ie hack
+ don't remove that style*/
+@font-face 
+{
+    font-family: 'Lato Bold';
+    src: url(../fonts/Lato/fonts/Lato-Bold.ttf);   
+}
+@font-face {
+    font-family: 'Lato Light';
+    src: url(../fonts/Lato/fonts/Lato-Light.ttf);
+}
+@font-face {
+    font-family: 'Lato Black';
+    src: url(../fonts/Lato/fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: 'Lato Regular';
+    src: url(../fonts/Lato/fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'Lato LightItalic';
+    src: url(../fonts/Lato/fonts/Lato-LightItalic.ttf);
+}
+/*@import url(https://fonts.googleapis.com/css?family=Lato);*/
+.standard-font{
+    font-size: 15px;
+    font-family: 'Lato Light';
+}
+.m-page {
+    display: block;
+}
+ul{
+    list-style-type: none;
+    padding-left:0px;
+}
+.regular{
+    font-family: 'Lato Regular';
+}
+.wrapper{
+    width:100%;
+}
+.wrapper-header{
+    width:100%;
+    background: url(../img/water-bg.jpg) center no-repeat #000;
+    height:800px;
+}
+div.menu{
+    position: fixed;
+    height: 100px;
+    width: 1170px;
+    z-index: 999;
+}
+.h-page, .f-page, .free, .our-services, .qoute, .our-prices, .advantages, .join-us, .updates, .free-psd2, .share {
+    width: 1170px;
+    margin: 0  auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.h-page, .f-page, .qoute p{
+    color: #fff;
+}
+.free, .our-services{
+    color:#5a5a5a;
+}
+.h-page{
+    padding-top: 1px;
+    position:relative;
+  }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav {
+    position: fixed;
+    top: 40px;
+    z-index: 99999;
+}
+.logotype{
+    position: fixed;
+    margin: 0 0;
+    top: 30px;
+    z-index: 99999;
+}
+nav{
+    width:500px;
+    margin: 0 0 0 750px;
+}
+
+nav ul{
+    margin:0;
+}
+.h-page ul li{
+    font-family: 'Lato Bold';
+    font-size: 16px;
+    list-style-type: none;
+    padding-left: 10px;
+    display: inline-block;
+}
+.h-page a:hover, .f-page a:hover{
+    color: #ed145b;
+}
+.advantages a:hover, .join-us a:hover{
+    color: #4a7a4a;
+}
+.show-more-buy a:hover{
+    color: #ed6b14;
+}
+.centered{
+    text-align: center;
+}
+.h-page p{
+    font-size: 22px;
+}
+.h-page h2{
+    font-size: 46px;
+    margin-top: 280px;
+}
+.h-page h2 span{
+    font-family: 'Lato Black';
+    font-size: 46px;
+}
+.show-more-buy{
+    background-color: #ed145b;
+    text-align: center;
+    padding: 18px 0;
+    width:  200px;
+    height: 14px;
+    font-family: 'Lato Bold';
+    font-size: 15px;
+    border-radius: 30px;
+}
+.h-page .show-more-buy{
+    margin: 48px auto;
+}
+.wrapper-free{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.triangle-topleft{
+	width: 0;
+	height: 0;
+	border-top: 40px solid #ed145b; 
+	border-right: 2000px solid transparent;	
+    position: absolute;
+    left: 0;
+    margin-left: auto;
+}
+.free{
+    height: 650px;
+}
+.psd-free{
+    width: 470px;
+    padding-top: 118px;
+    float: left;
+}
+.mac-book{
+    width: 500px;
+    height: 540px;
+    margin-left: 500px;
+    padding-top: 110px;
+    position: relative;
+    }
+.inset-img{
+    position: absolute;
+    top: 140px;
+    left: 125px;
+}
+.mac-shadow{
+    position: absolute;
+    bottom: -93px;
+}
+/*.mac-book::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+*/
+h2{
+    font-size: 38px;
+    font-family: 'Lato LightItalic';
+}
+.figure-line{
+    width: 200px;
+    height: 2px;
+    background-color: #ed145b;
+    margin: 40px auto;
+}
+}
+.psd-free p:first-of-type{
+    line-height: 28px;
+}
+.play-video{
+    padding: 38px 0;
+}
+.see-video{
+    height: 30px;
+    color: #ed145b;
+    font-size:15px;
+    font-family: 'Lato Regular';
+    float: left;
+    padding-top: 6px;
+ }
+ .elipse{
+    width:  8px;
+    border: 1px solid #ed145b;
+    border-radius: 30px;
+    margin-left: 120px;
+    padding: 5px 10px;
+ }
+.wrapper-our-services{
+    padding-top: 1px;
+    width: 100%;
+    height: 700px;
+    background-color: f4f4f4;
+}
+.visit-card .figure-line{
+    margin: 40px auto;
+}
+.visit-card>h2{
+    padding-top: 118px;
+}
+.visit-card>p{
+    padding: 0 220px;
+}
+.visit-card{
+    padding-top:1px;
+}
+.full-services ul li{
+    display: inline-block;
+    width:200px;
+    margin-left: 70px;
+    color: #ed145b;
+}
+.full-services ul li:first-child{
+    margin-left: 60px;
+}
+.full-services ul{
+    margin-top: 90px;
+}
+.full-services ul li div{
+    border-radius: 130px;
+    border: 1px solid #b3b3b3;
+    margin-bottom: 30px;
+    width: 56px;
+}
+.full-services ul li:first-child div{
+    padding: 41px 35px;  
+}
+.full-services ul li:nth-child(2) div{
+    padding: 35px 35px;  
+}
+.full-services ul li:nth-child(3) div, .full-services ul li:nth-child(4) div{
+    padding: 33px 30px 33px 40px;  
+}
+.wrapper-qoute{
+    background: url(../img/water-bg.jpg) top center no-repeat #000;
+    width: 100%;
+    height: 500px;
+}
+.qoute p{
+    font-family: 'Lato LightItalic';
+    font-size: 25px;
+    padding: 0 150px;
+}
+.upqou, .subqou{
+    height: 150px;
+    color: #ed145b;
+    font-size: 158px;
+}
+.subqou,.upqou{
+    font-family: 'Times new Roman'
+}
+.wrapper-our-prices{
+    width: 100%;
+    height: 1000px;
+    background-color:#f4f4f4;
+}
+.buy-now{
+    width: 260px;
+}
+.buy-price{
+    height: 150px;
+    background-color: #5a5a5a;
+    color: #f4f4f4;
+    position: relative;
+}
+.buy-now{
+    margin: 74px 0;
+    display: inline-block;
+}
+.our-prices>ul li:first-child~li{
+    margin-left: 15px;
+}
+.buy-type{
+    background-color: #fff;
+}
+.proposition{
+    height: 310px;
+    background-color: #fff;
+    padding-top: 1px;
+}
+.proposition li:first-of-type{
+    padding-top:60px;
+}
+.proposition li{
+    padding-bottom: 25px;
+}
+.proposition li:last-child{
+    padding-bottom: 0;
+}
+.buy-price p{
+    font-family: 'Lato Bold';
+    font-size: 50px;
+    margin: 0 auto;
+}
+.buy-price:hover{
+    background-color: #ed145b;
+}
+.buy-price p:first-child{
+    padding-top:30px;
+}
+.buy-price p:nth-child(2){
+font-size: 15px;
+}
+.buy-price p span{
+    font-size: 20px;
+}
+.buy-type{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 18px 0;
+    width:  200px;
+    height: 14px;
+    font-family: 'Lato Bold';
+    font-size: 15px;
+    border-radius: 30px;
+    color: #8a8a8a;
+    margin: 20px auto 0;
+}
+.proposition .show-more-buy{
+    margin: 30px auto;
+}
+.wraapper-advantages{
+    width: 100%;
+    height: 600px;
+    background-color:#ffffff;
+}
+.advantages{
+    height: 600px;
+    padding-top: 1px;
+}
+.advantages a, .show-more a{
+    color: #ed145b;
+}
+.advantages ul {
+    margin-top: 150px;
+}
+.advantages ul li{
+    width: 350px;
+    display: inline-block;
+}
+.advantages ul li:nth-child(3)~li{
+    padding-top: 40px;
+}
+.advanteges-padding{
+    padding-left: 30px;
+}
+.advantages ul li div{
+    width: 260px;
+    font-size: 15px;
+    margin-left: 80px;
+}
+.advantages ul li img{
+    padding-top: 30px;
+    float: left;
+}
+.advantages ul li div p{
+    line-height: 24px;
+    color: #8d8d8d;
+}
+.advantages ul li h2{
+    font-size: 15px;    
+}
+.wraapper-join-us{
+    width: 100%;
+    height: 200px;
+    background-color:#ed145b;   
+}
+.join-us{
+    padding-top: 1px;
+}
+.join-us p{
+    font-size: 38px;
+    color: #fff;
+    width: 900px;
+    padding-top: 85px;
+    margin:0;
+    float: left;
+}
+.join-us p span{
+    font-family: 'Lato Bold';
+}
+.join-us-button{
+    background-color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    width:  200px;
+    height: 14px;
+    font-family: 'Lato Bold';
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 80px 0 0 930px;
+}
+.join-us a{
+    color: #ed145b;
+}      
+.wraapper-updates{
+    width: 100%;
+    height: 1450px;
+    background-color:#ffffff;
+}
+.updates ul{
+    margin-top: 85px;
+}
+.link a{
+    color: #5a5a5a;
+}
+.updates-container{
+    position: relative;
+    overflow: hidden;
+}
+.triangle-bottomleft{
+    width: 0;
+	height: 0;
+	border-bottom: 11px solid #ed145b; 
+	border-right: 400px solid transparent;
+    position: absolute;
+    top: 240px;
+}
+h2.link{
+    padding: 17px 20px;
+    font-size: 15px;
+}
+.updates-container p{
+    padding-left: 20px;
+    padding-right: 30px;
+    margin: 0;
+    line-height: 25px;
+}
+.updates ul li{
+    display: inline-block;
+    width: 360px;
+    height: 390px;
+    background-color:#f4f4f4;
+}
+.updates ul li:nth-child(3)~li{
+    margin-top: 40px;
+}
+.updates-margin{
+    margin-left: 30px;
+}
+.show-more{
+    padding-top: 115px;
+    color: #ed145b;
+}
+.show-more img{
+    display: block;
+    margin: 7px auto;
+}
+.wraapper-free-psd2{
+    width: 100%;
+    height: 650px;
+    background: url(../img/water-bg.jpg) top center no-repeat #000;
+}
+.free-psd2 h1{
+    font-family: 'Lato LightItalic';
+    font-size: 38px;
+    padding-top: 150px;
+    color: #fff;
+}
+.free-psd2 .show-more-buy{
+    margin: 230px auto 0;
+}
+.wraapper-share{
+    width: 100%;
+    height: 900px;
+    background-color:#f4f4f4;
+}
+.please-share h2{
+    margin-top: 150px;
+}
+.please-share{
+    width: 500px;
+    float: right;
+}
+.please-share .figure-line{
+    margin-left: 0;
+}
+.please-share p{
+    line-height: 25px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.share{
+    position: relative;
+}
+.safari{
+    width: 800px; 
+    height: 600px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 75px;
+    left: -235px;
+}
+.toolbar ul {
+    margin: 0;
+}
+.toolbar ul li{
+    display: inline-block;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.toolbar ul li.dots{
+    background-color: #f4f4f4;
+}
+.next-previous{
+    width: 25px;
+    padding-left: 2px;
+}
+.window-bar.centered{
+    width: 37px;
+    margin-left: 10px;
+}
+.toolbar ul li:nth-child(7){
+    width: 353px;
+    margin: 0 85px 0 35px;
+    text-align: right;
+    padding-right: 5px;
+}
+.wrapper-footer{
+    width: 100%;
+    height: 150px;
+    background-color: #2b2b2b;
+    position: fixed;
+    bottom: 0;
+}
+.dots{
+    padding: 7px 3px;
+}
+.toolbar ul li:first-child{
+    padding-left: 10px;
+}
+.toolbar li.plus{
+    height: 20px;
+    width: 22px;
+    background-color: #d2d1d2;
+    border-radius: 0;
+    margin-bottom:0;
+    border: 1px inset #d2d1d2;
+}
+.author-dot{
+    color: #d32640;
+}
+.f-page p:first-of-type{
+    float: left;
+}
+.author{
+    text-align: right;
+    font-size: 16px;
+}
+.f-page{
+    padding-top: 50px;
+    z-index: 9999;
+}
